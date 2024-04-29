@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+}
+
+aside {
+  width: 90px;
+  background-color: white;
+  bottom: 0;
+  top: 0;
+}
+
+.sidebar_icons {
+  gap: 30px;
+}
+
+header {
+  height: 70px;
+  background-color: white;
+  padding: 0 24px 0 24px;
+}
+
+.header_list {
+  gap: 23px;
+}
+
+.last_icon {
+  margin-bottom: 38px;
+}
+.icon_logo {
+  margin-top: 30px;
+}
+
+.buttons {
+  background-color: #fff;
+  border-radius: 10px;
+  min-width: 646px;
+  color: #a0aec0;
+  padding: 15.5px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .buttons {
+    min-width: auto;
+  }
+}
+
+.ul_container {
+  margin: 26px 24px 0 24px;
+}
+.create_new_btn {
+  color: #fff;
+  background-color: #00c0f7;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  height: 44px;
+}
+
+.article {
+  border-radius: 16px;
+  max-width: 269px;
+  padding: 20px;
+  height: 239px;
+}
+.grid {
+  margin: 0 0 0 24px;
+}
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #202633;
+  font-weight: 500;
+}
+
+hr {
+  color: #e9eaec;
+  margin: 0 0 8px 0;
+}
+.article_texts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #a0aec0;
+}
+.article_texts p {
+  margin-bottom: 8px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+.active_link {
+  color: #fff;
+  background-color: #00c0f7;
+  border-radius: 4px;
+  width: 44px;
+  height: 32px;
+}
